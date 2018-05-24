@@ -1,0 +1,25 @@
+{
+  "name": "pie-shop",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "description": "Bethany's pie shop",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js --watch --progress --profile",
+    "build": "webpack --config webpack.config.js --progress --profile",
+    "prod": "webpack --env.NODE_ENV=production --config webpack.config.js --progress"
+  }
+}
