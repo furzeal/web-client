@@ -18,7 +18,13 @@
     align-items: baseline;
 }
 
-.nav__item a { color: white; }
+.nav__item a {
+     color: white;
+}
+
+.nav__item {
+    margin-right: 40px;
+}
 
 .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-toggler { color: white; }
